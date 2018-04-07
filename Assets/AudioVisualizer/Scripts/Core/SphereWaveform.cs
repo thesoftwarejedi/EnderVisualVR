@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Linq;
 using System.Collections.Generic;
 
 
@@ -38,6 +38,7 @@ namespace AudioVisualizer
         [Tooltip("How would you like these objects to rotate around the sphere?")]
         public RotationType rotationType = RotationType.Uniform;
 		public enum RotationType{Uniform,Rand,Cross};
+        public int BlastCount = 50;
         /*
 		 * Uniform - uniformly rotate around the rotation axis
 		 * Rand - rotate around random axes
@@ -122,6 +123,18 @@ namespace AudioVisualizer
             radius = startRadius + value * sign * amplitude * AudioSampler.instance.globalSensitivity;
             //Debug.Log ("bumping avg: " + avg + " radius: " + radius);
 
+        }
+
+        private bool _blastOn = false;
+        //causes all grandchildren to emit
+        public void Blast(bool everyOther)
+        {
+            if (!everyOther || (_blastOn = !_blastOn))
+            {
+                var es = this.GetComponentsInChildren<ParticleSystem>().SelectMany(a => a.GetComponentsInChildren<ParticleSystem>()).Where(a => a != this);
+                foreach (var e in es)
+                    e.Emit(BlastCount);
+            }
         }
 
         /*________________Protected Methods________________*/

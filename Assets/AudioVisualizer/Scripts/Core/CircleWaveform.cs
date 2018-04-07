@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
-using System.Collections;
+using System.Linq;
 using System.Collections.Generic;
 
 
@@ -32,6 +32,7 @@ namespace AudioVisualizer
         public bool useAudioFile = false; // flag saying if we should use a pre-recorded audio file
         [Tooltip("Adjust circle radius using audio?")]
         public bool useWaveform = true; //if true: lerp up and down, and around. If false, just around
+        public int BlastCount = 50;
 
         //____________Delegates/Actions
 
@@ -119,7 +120,19 @@ namespace AudioVisualizer
 				sign = -sign;
 			}
 			radius = startRadius + value * sign * amplitude * AudioSampler.instance.globalSensitivity;
-		}
+        }
+
+        private bool _blastOn = false;
+        //causes all grandchildren to emit
+        public void Blast(bool everyOther)
+        {
+            if (!everyOther || (_blastOn = !_blastOn))
+            {
+                var es = this.GetComponentsInChildren<ParticleSystem>().SelectMany(a => a.GetComponentsInChildren<ParticleSystem>()).Where(a => a != this);
+                foreach (var e in es)
+                    e.Emit(BlastCount);
+            }
+        }
 
         /*________________Protected Methods________________*/
 
