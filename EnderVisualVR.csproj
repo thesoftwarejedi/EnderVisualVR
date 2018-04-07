@@ -252,7 +252,6 @@
     <Compile Include="Assets\AudioVisualizer\Scripts\Miscellaneous\ParticleFrequencyEmitter.cs" />
     <Compile Include="Assets\AudioVisualizer\Scripts\Miscellaneous\Ring.cs" />
     <Compile Include="Assets\AudioVisualizer\Scripts\Miscellaneous\Rotate.cs" />
-    <Compile Include="Assets\Scripts\InvertNormals.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />

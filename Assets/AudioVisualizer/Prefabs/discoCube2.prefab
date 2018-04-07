@@ -99,8 +99,8 @@ MonoBehaviour:
   audioIndex: 0
   frequencyRange: 7
   sensitivity: 10
-  lowColor: {r: 1, g: 1, b: 1, a: 0}
-  highColor: {r: 0.5441177, g: 0.92454356, b: 1, a: 1}
+  lowColor: {r: 1, g: 0.611808, b: 0.611808, a: 0}
+  highColor: {r: 0.31764692, g: 0.14705884, b: 1, a: 1}
   lerpSpeed: 10
   useAudioFile: 0
 --- !u!1001 &100100000
