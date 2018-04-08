@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 887, y: 492}
-  m_MaxSize: {x: 16012, y: 14042}
+  m_MinSize: {x: 885, y: 492}
+  m_MaxSize: {x: 16010, y: 14042}
   vertical: 0
-  controlID: 9
+  controlID: 6664
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,10 +120,10 @@ MonoBehaviour:
     y: 0
     width: 1593
     height: 947
-  m_MinSize: {x: 610, y: 492}
-  m_MaxSize: {x: 12010, y: 14042}
+  m_MinSize: {x: 608, y: 492}
+  m_MaxSize: {x: 12008, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 6665
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,10 +145,10 @@ MonoBehaviour:
     y: 0
     width: 1593
     height: 671
-  m_MinSize: {x: 610, y: 221}
-  m_MaxSize: {x: 12010, y: 4021}
+  m_MinSize: {x: 608, y: 221}
+  m_MaxSize: {x: 12008, y: 4021}
   vertical: 0
-  controlID: 11
+  controlID: 6666
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -258,9 +258,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.88176894, y: -8.694722, z: 29.2757}
+    m_Target: {x: -11.634581, y: -17.298794, z: 31.810291}
     speed: 2
-    m_Value: {x: -0.88176894, y: -8.694722, z: 29.2757}
+    m_Value: {x: -11.634581, y: -17.298794, z: 31.810291}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -283,13 +283,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.3367797, y: 0.039529607, z: -0.014152916, w: 0.9406469}
+    m_Target: {x: -0.16274682, y: 0.41324058, z: -0.075329676, w: -0.89278847}
     speed: 2
-    m_Value: {x: -0.33677974, y: -0.039529607, z: 0.014152917, w: -0.9406469}
+    m_Value: {x: -0.16274682, y: 0.41324058, z: -0.075329676, w: -0.89278847}
   m_Size:
-    m_Target: 111.85829
+    m_Target: 57.79097
     speed: 2
-    m_Value: 111.85829
+    m_Value: 57.79097
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -319,8 +319,8 @@ MonoBehaviour:
     y: 0
     width: 352
     height: 671
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -354,9 +354,9 @@ MonoBehaviour:
     height: 650
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 44e8ffff00000000
+    m_SelectedIDs: 68480000
+    m_LastClickedID: 18536
+    m_ExpandedIDs: 42e5ffffe0e6ffff44e8ffff00000000ae430000184400004c440000ea45000006470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -444,18 +444,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/VRTK
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\code\Unity\EnderVisualVR
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 9a370000
-    m_LastClickedID: 14234
+    scrollPos: {x: 0, y: 258}
+    m_SelectedIDs: 68380000
+    m_LastClickedID: 14440
     m_ExpandedIDs: 000000009a37000014380000d238000024390000f83900006a3a0000103c0000423c0000603c0000283d0000843d0000a43d0000e83d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -484,7 +484,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009a37000014380000d238000024390000f83900006a3a0000103c0000423c0000603c0000283d0000843d0000a43d0000e83d0000
+    m_ExpandedIDs: 000000009a37000014380000d238000024390000f83900006a3a0000103c0000423c0000603c0000283d0000843d0000a43d0000e83d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -509,8 +509,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 68480000
+    m_LastClickedInstanceID: 18536
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000058060000aa370000002d0000d0280000802c000000000000
     m_RenameOverlay:
