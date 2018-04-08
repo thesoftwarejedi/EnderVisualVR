@@ -48,6 +48,13 @@ namespace AudioVisualizer
                 inputDevices[i] = Microphone.devices[i].ToString();
                 Debug.Log("Device: " + i + ": " + inputDevices[i]);
             }
+            var s = System.Environment.GetCommandLineArgs();
+            if (s != null && s.Length > 1)
+            {
+                Debug.Log("Found command line args, using this for mic device number: " + s[0]);
+                int.TryParse(s[0], out deviceNum);
+            }
+
             //record the name of the device we're using
             if (Microphone.devices.Length > 0)
             {

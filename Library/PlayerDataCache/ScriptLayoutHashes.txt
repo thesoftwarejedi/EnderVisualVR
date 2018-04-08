@@ -100,6 +100,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 0777fcfd6f3d8c384423f91b28c82511 Assembly-CSharp.dll:Valve.VR.InteractionSystem.UIElement
 b4134df51178e5b0f9c65cb89bfb9e20 Assembly-CSharp.dll:AudioVisualizer.CameraMovement
 dd5481137759597d614818793c90a7fe Assembly-CSharp.dll:AudioVisualizer.Orb
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TriggerEmit
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 970a95104359198fe1a98ef48655de8c UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
